@@ -1,6 +1,7 @@
 import { StyleSheet } from "react-native";
 
 export const estilos = StyleSheet.create({
+  //STYLE DO FUNDO
   container: {
     flex: 1,
     width: "100%",
@@ -8,7 +9,7 @@ export const estilos = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-
+  //STYLE DOS TEXTOS
   Text1: {
     fontFamily: "cursive",
     color: "#6495ED",
@@ -32,7 +33,7 @@ export const estilos = StyleSheet.create({
     textAlign: "center",
     marginBottom: 10,
   },
-
+  //STYLE DOS BOTÕES
   btn1: {
     textAlign: "center",
     borderColor: "#4169E1",
@@ -76,7 +77,7 @@ export const estilos = StyleSheet.create({
     shadowColor: "#DA70D6",
     shadowRadius: 20,
   },
-
+  //STYLE DA IMAGEM DO BOTÃO
   image: {
     height: 60,
     width: 100,
